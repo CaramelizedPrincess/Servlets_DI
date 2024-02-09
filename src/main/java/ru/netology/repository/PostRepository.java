@@ -7,7 +7,7 @@ import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicLong;
 
-@Repository
+
 public class PostRepository {
   private final AtomicLong userId;
   private final Map<Long, Post> listofPosts;
